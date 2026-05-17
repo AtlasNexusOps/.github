@@ -1,0 +1,29 @@
+name: Feature Request
+description: Propose a new feature or enhancement
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What do you want to add or change?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why this matters
+      description: What problem does this solve? Who benefits?
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+      description: Any ideas on how to implement this?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission
+      options:
+        - label: I checked existing issues and PRs
+          required: true
